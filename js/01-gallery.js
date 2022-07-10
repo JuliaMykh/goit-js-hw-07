@@ -33,16 +33,16 @@ function onGalleryContainerClick(e){
   };
 
 const instance = basicLightbox.create(`
-    <img src="assets/images/image.png" width="800" height="600">
+    <img src="${original}" width="800" height="600">
 `)
   instance.show()
-  window.addEventListener('keydown', onEscapeCloseModal);
+  // window.addEventListener('keydown', onEscapeCloseModal);
 
 };
 
-function onEscapeCloseModal(e) {
-  instance.close();
-};
+// function onEscapeCloseModal(e) {
+//   instance.close();
+// };
 
 
 
