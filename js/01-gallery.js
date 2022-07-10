@@ -24,3 +24,10 @@ function createGallery(galleryItems){
 }
 
 
+
+
+// const instance = basicLightbox.create(document.querySelector('.gallery__item'))
+
+// instance.show()
+
+
