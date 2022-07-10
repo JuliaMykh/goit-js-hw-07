@@ -28,15 +28,21 @@ function createGallery(galleryItems){
 function onGalleryContainerClick(e){
   e.preventDeafult();
 
+  if (!e.target.classList.contains('gallery__image')) {
+    return;
+  };
   
-};
-
-
-
-
 const instance = basicLightbox.create(`
     <img src="assets/images/image.png" width="800" height="600">
 `)
 
 instance.show()
+
+
+};
+
+
+
+
+
 
