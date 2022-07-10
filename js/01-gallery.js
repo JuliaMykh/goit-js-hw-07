@@ -49,10 +49,6 @@ const instance = basicLightbox.create(`
 
 
 
-// function onEscapeCloseModal(e) {
-//   instance.close();
-// };
-
 
 
 
